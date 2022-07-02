@@ -1,0 +1,49 @@
+html, body {margin:0;padding:0;height:100%;font-family: roboto;}
+.page {
+    width: 1500px;
+    height: 1300px;
+    position: absolute;
+    align-content: center;
+    overflow:hidden;
+    
+    
+}
+
+.font {
+    background: linear-gradient(0deg, #FF0000, #7000FF);
+    width: 1000px;
+    margin-left: 200px;
+    margin-top: 20px;
+    height: 1200px;
+    position: absolute;
+}
+
+/* left side*/
+.left-side {
+    border-radius: 20px;
+    float: left;
+    display: block;
+    width: 450px;
+    height: 1180px;
+    margin-top: 5px;
+    margin-left: 10px;
+    background: rgba(255,255,255, 0.3);
+}
+.name {
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+
+/* right side*/
+.right-side {
+    border-radius: 20px;
+    float: left;
+    display: block;
+    width: 520px;
+    height: 1180px;
+    margin-top: 5px;
+    margin-left: 10px;
+    
+}
