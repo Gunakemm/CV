@@ -5,8 +5,6 @@ html, body {margin:0;padding:0;height:100%;font-family: roboto;}
     position: absolute;
     align-content: center;
     overflow:hidden;
-    
-    
 }
 
 .font {
@@ -16,6 +14,7 @@ html, body {margin:0;padding:0;height:100%;font-family: roboto;}
     margin-top: 20px;
     height: 1200px;
     position: absolute;
+    box-shadow: 5px 5px 15px black;
 }
 
 /* left side*/
@@ -29,12 +28,76 @@ html, body {margin:0;padding:0;height:100%;font-family: roboto;}
     margin-left: 10px;
     background: rgba(255,255,255, 0.3);
 }
-.name {
+#name {
     text-align: center;
     text-transform: uppercase;
     color: white;
+    font-size: 20px;
+    margin-top: 50px;
 }
-
+#name h1{
+    margin-bottom: 10px;
+}
+#name p {
+    margin-top: 0px;
+}
+#aboutMyself {
+    border-radius: 20px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    display: block;
+    width: 446px;
+    height: 310px;
+    margin-top: 130px;
+    margin-bottom: 50px;
+    background: rgba(255,255,255, 0.4);
+}
+.round {
+    margin-top: -100px;
+    margin-left: 125px;
+    width: 200px; height: 200px;
+   border-radius: 50%; 
+   background: url(/img/DSC03259.jpg) no-repeat;
+   background-size: auto 500px;
+}
+#aboutMyself h2 {
+    text-transform: uppercase;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    color: white;
+}
+#aboutMyself p {
+    margin-top: 0px;
+    margin-left: 15px;
+    color: white;
+    font-size: 18px;
+}
+#contacts {
+    height: 50px;
+    width: 400px;
+    border-radius: 30px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    background: rgba(255,255,255, 0.4);
+}
+.icon {
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 25px;
+    float: left;
+}
+#contacts p {
+    color: white;
+    padding-top: 13px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+#contacts a{
+    color: white;
+    text-decoration: solid;
+}
 
 /* right side*/
 .right-side {
@@ -45,5 +108,5 @@ html, body {margin:0;padding:0;height:100%;font-family: roboto;}
     height: 1180px;
     margin-top: 5px;
     margin-left: 10px;
-    
+    background: rgba(255,255,255, 1);
 }
